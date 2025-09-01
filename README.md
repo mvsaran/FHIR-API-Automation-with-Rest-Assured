@@ -1,8 +1,22 @@
-# 🚀 FHIR API Automation with Allure Reports
+# 🚀 FHIR API Automation with Rest Assured & Allure Reports
 
-This project demonstrates automated testing of **HL7 FHIR APIs** using **Java, RestAssured, TestNG, and Allure Reporting**.  
-It dynamically generates FHIR resources (like `Patient`) using **FakerUtils** and validates responses from the FHIR server.
+This project demonstrates automation of **HL7 FHIR APIs** using **Rest Assured**, **TestNG**, and **Allure Reporting**.  
+It validates key FHIR resources such as **Patient, Condition, Encounter, and Appointment** against a public FHIR server.
 
+---
+
+## 🚀 Features
+- API Test Automation with **Rest Assured**
+- Test Execution with **TestNG**
+- Rich Test Reports using **Allure**
+- Covers FHIR Resources:
+  - Patient
+  - Condition
+  - Encounter
+  - Appointment
+- Maven Project with structured test suite (`testng.xml`)
+
+---
 ---
 
 ## 📌 Tech Stack
