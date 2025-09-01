@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-01T21:09:54 IST" name="FHIR API Test Suite" finished-at="2025-09-01T21:10:19 IST" duration-ms="24893">
+    <groups>
+    </groups>
+    <test started-at="2025-09-01T21:09:54 IST" name="FHIR API Tests" finished-at="2025-09-01T21:10:19 IST" duration-ms="24893">
+      <class name="tests.PatientTest">
+        <test-method signature="testCreatePatient()[pri:0, instance:tests.PatientTest@673fdbce]" started-at="2025-09-01T21:10:04 IST" name="testCreatePatient" description="Verify that a new Patient resource can be created successfully" finished-at="2025-09-01T21:10:05 IST" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePatient -->
+      </class> <!-- tests.PatientTest -->
+      <class name="tests.ConditionTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ConditionTest@4d1bf319]" started-at="2025-09-01T21:09:54 IST" name="setup" finished-at="2025-09-01T21:09:55 IST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateAndSearchCondition()[pri:0, instance:tests.ConditionTest@4d1bf319]" started-at="2025-09-01T21:09:55 IST" name="testCreateAndSearchCondition" finished-at="2025-09-01T21:10:04 IST" duration-ms="9451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndSearchCondition -->
+      </class> <!-- tests.ConditionTest -->
+      <class name="tests.AppointmentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AppointmentTest@5965d37]" started-at="2025-09-01T21:10:05 IST" name="setup" finished-at="2025-09-01T21:10:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateAndSearchAppointment()[pri:0, instance:tests.AppointmentTest@5965d37]" started-at="2025-09-01T21:10:05 IST" name="testCreateAndSearchAppointment" finished-at="2025-09-01T21:10:13 IST" duration-ms="7566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndSearchAppointment -->
+      </class> <!-- tests.AppointmentTest -->
+      <class name="tests.EncounterTest">
+        <test-method signature="testCreateAndSearchEncounter()[pri:0, instance:tests.EncounterTest@7a5ceedd]" started-at="2025-09-01T21:10:13 IST" name="testCreateAndSearchEncounter" finished-at="2025-09-01T21:10:19 IST" duration-ms="6117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndSearchEncounter -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.EncounterTest@7a5ceedd]" started-at="2025-09-01T21:10:13 IST" name="setup" finished-at="2025-09-01T21:10:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- tests.EncounterTest -->
+    </test> <!-- FHIR API Tests -->
+  </suite> <!-- FHIR API Test Suite -->
+</testng-results>

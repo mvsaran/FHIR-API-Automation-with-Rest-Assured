@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="FHIR API Test Suite" verbose="1" parallel="false">
+<listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+</listeners>
+  <test name="FHIR API Tests">
+      <classes>
+      <class name="tests.ConditionTest"/>
+      <class name="tests.PatientTest"/>
+      <class name="tests.AppointmentTest"/>
+      <class name="tests.EncounterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

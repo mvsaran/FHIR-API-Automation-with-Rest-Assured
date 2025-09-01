@@ -1,0 +1,1 @@
+{"uuid":"e9c52c66-6e0f-4a50-bc93-2a74124fdea5","name":"tests.EncounterTest","children":["1768eeca-1e46-41a1-ac5c-af7af430d92a"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1756739022418,"stop":1756739022419}],"afters":[],"start":1756739009232,"stop":1756739029541}

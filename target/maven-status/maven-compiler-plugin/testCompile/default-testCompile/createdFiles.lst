@@ -1,0 +1,5 @@
+base\BaseTest.class
+tests\EncounterTest.class
+tests\PatientTest.class
+tests\AppointmentTest.class
+tests\ConditionTest.class
